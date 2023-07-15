@@ -1,0 +1,33 @@
+<!DOCTYPE html> <html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Photo Gallery Prototype 7/15/23</title>
+<style>img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid gray;
+}
+
+body {
+  font-family: 'Helvetica';
+}</style></head>
+
+<body>
+  <h1>Photo Gallery</h1>
+  <div class="imageContainer"></div>
+  <script src="script.js"></script>
+
+
+<script>
+/*__POPCODESTART__*/
+// Write a query selector that selects #imageContainer
+document.querySelector("imageContainer"); // Add at least four (4) image urls to this array
+
+var imageUrls = [3]; // Write your for of loop using .insertAdjacentHTML below
+
+for (var _i = 0, _imageUrls = imageUrls; _i < _imageUrls.length; _i++) {
+  var image = _imageUrls[_i];
+  imageUrls.insertAdjacentHTML("beforebegin", '<img src="' + image + 'imageContainer">');
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbImRvY3VtZW50IiwicXVlcnlTZWxlY3RvciIsImltYWdlVXJscyIsImltYWdlIiwiaW5zZXJ0QWRqYWNlbnRIVE1MIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBQSxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsZ0JBQXZCLEUsQ0FDQTs7QUFDQSxJQUFJQyxTQUFTLEdBQUcsQ0FBQyxDQUFELENBQWhCLEMsQ0FFQTs7QUFDQSw4QkFBa0JBLFNBQWxCLGdDQUE2QjtBQUF4QixNQUFJQyxLQUFLLGlCQUFUO0FBQ0xELEVBQUFBLFNBQVMsQ0FBQ0Usa0JBQVYsQ0FBNkIsYUFBN0IsRUFBNEMsZUFBY0QsS0FBZCxHQUFzQixrQkFBbEU7QUFDQyIsInNvdXJjZXNDb250ZW50IjpbIi8vIFdyaXRlIGEgcXVlcnkgc2VsZWN0b3IgdGhhdCBzZWxlY3RzICNpbWFnZUNvbnRhaW5lclxuZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcImltYWdlQ29udGFpbmVyXCIpO1xuLy8gQWRkIGF0IGxlYXN0IGZvdXIgKDQpIGltYWdlIHVybHMgdG8gdGhpcyBhcnJheVxubGV0IGltYWdlVXJscyA9IFszXTtcblxuLy8gV3JpdGUgeW91ciBmb3Igb2YgbG9vcCB1c2luZyAuaW5zZXJ0QWRqYWNlbnRIVE1MIGJlbG93XG5mb3IgKGxldCBpbWFnZSBvZiBpbWFnZVVybHMpIHtcbmltYWdlVXJscy5pbnNlcnRBZGphY2VudEhUTUwoXCJiZWZvcmViZWdpblwiLCAnPGltZyBzcmM9XCInKyBpbWFnZSArICdpbWFnZUNvbnRhaW5lclwiPicgKTtcbn0iXX0=</script></body></html>
